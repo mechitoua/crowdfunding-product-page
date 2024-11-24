@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'commissioner': ['Commissioner', 'sans-serif'],
+      },
+      colors: {
+        'moderate-cyan': 'var(--moderate-cyan)',
+        'dark-cyan': 'var(--dark-cyan)',
+      },
+    },
   },
   plugins: [],
 }

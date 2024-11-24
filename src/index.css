@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --moderate-cyan: hsl(176, 50%, 47%);
+    --dark-cyan: hsl(176, 72%, 28%);
+  }
+
+  body {
+    @apply bg-[#FAFAFA] text-[#2F2F2F] font-commissioner;
+  }
+}
+
+@layer components {
+  .filter-bookmark-active {
+    filter: invert(67%) sepia(23%) saturate(845%) hue-rotate(127deg) brightness(88%) contrast(89%);
+  }
+}
