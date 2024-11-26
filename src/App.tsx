@@ -94,7 +94,7 @@ export default function App() {
                   />
                 </div>
                 <span
-                  className={`-ml-2 pl-8 pr-6 h-14 rounded-r-full font-bold bg-[#F4F4F4] leading-[56px] transition-colors hidden md:block ${
+                  className={`-ml-14 pl-16 pr-6 h-14 rounded-full font-bold bg-[#F4F4F4] leading-[56px] transition-colors hidden md:block ${
                     isBookmarked ? 'text-dark-cyan' : 'text-[#7a7a7a]'
                   }`}>
                   {isBookmarked ? 'Bookmarked' : 'Bookmark'}
